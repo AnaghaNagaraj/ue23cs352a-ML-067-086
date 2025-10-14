@@ -1,2 +1,20 @@
 data/raw/train/*
 data/raw/test/*
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment
+.venv/
+
+# Ignore dataset (too large for GitHub)
+data/
+
+# Ignore images/logs
+*.jpg
+*.png
+
+
