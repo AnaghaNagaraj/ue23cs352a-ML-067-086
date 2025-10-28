@@ -73,19 +73,21 @@ Input Image: img_104.jpg
 Classification: Drinking (c6)
 
 ## Repo Structure
-├── features.py                # Preprocessing functions
-├── linear_classifier.py       # Linear SVM/Softmax implementation
-├── linear_svm.py              # SVM loss functions
-├── softmax.py                 # Softmax loss functions
-├── neural_net.py              # Two-Layer Neural Net
-├── run_models.py              # Main script (train + predict)
-├── *.ipynb                    # Notebooks for each model
-├── requirements.txt           # Dependencies
-├── README.md                  # This file
-└── data/
-    └── raw/
-        ├── train/c0...c9
-        └── test/
+
+- `features.py` – Preprocessing functions  
+- `linear_classifier.py` – Linear SVM/Softmax implementation  
+- `linear_svm.py` – SVM loss functions  
+- `softmax.py` – Softmax loss functions  
+- `neural_net.py` – Two-Layer Neural Net  
+- `run_models.py` – Main script (train + predict)  
+- `*.ipynb` – Notebooks for each model  
+- `requirements.txt` – Dependencies  
+- `README.md` – This file  
+- `data/`
+  - `raw/`
+    - `train/c0...c9` – Training images (10 classes)  
+    - `test/` – Test images (unlabeled)  
+
 
 ## ✨ Team
 - Anagha Nagaraj (UE23CS352A-PES1UG23CS067) --- Data preprocessing, repo setup, baseline models, evaluation
