@@ -73,7 +73,7 @@ Input Image: img_104.jpg
 Classification: Drinking (c6)
 
 ## Repo Structure
-├── features.py               # Preprocessing functions
+├── features.py                # Preprocessing functions
 ├── linear_classifier.py       # Linear SVM/Softmax implementation
 ├── linear_svm.py              # SVM loss functions
 ├── softmax.py                 # Softmax loss functions
